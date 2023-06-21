@@ -98,7 +98,7 @@ function Home() {
           {todos.length === 0 ? (
             <p className="text-white text-4xl font-bold text-center">No hay Tareas aun</p>
           ) : (
-            <p className="text-white text-4xl font-bold text-center">{`You have ${todos.length} todos`}</p>
+            <p className="text-white text-4xl font-bold text-center">{`You have ${todos.length} Task`}</p>
           )}
         </div>
       </div>
